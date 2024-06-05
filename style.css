@@ -1,0 +1,442 @@
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("./fonts/HelveticaNeue-Bold.eot");
+  src: local("Helvetica Neue Bold"), local("HelveticaNeue-Bold"),
+    url("./fonts/HelveticaNeue-Bold.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/HelveticaNeue-Bold.woff2") format("woff2"),
+    url("./fonts/HelveticaNeue-Bold.woff") format("woff"),
+    url("./fonts/HelveticaNeue-Bold.ttf") format("truetype"),
+    url("./fonts/HelveticaNeue-Bold.svg#HelveticaNeue-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("./fonts/HelveticaNeue-Black.eot");
+  src: local("Helvetica Neue Black"), local("HelveticaNeue-Black"),
+    url("./fonts/HelveticaNeue-Black.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/HelveticaNeue-Black.woff2") format("woff2"),
+    url("./fonts/HelveticaNeue-Black.woff") format("woff"),
+    url("./fonts/HelveticaNeue-Black.ttf") format("truetype"),
+    url("./fonts/HelveticaNeue-Black.svg#HelveticaNeue-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("./fonts/HelveticaNeue-BlackItalic.eot");
+  src: local("Helvetica Neue Black Italic"), local("HelveticaNeue-BlackItalic"),
+    url("./fonts/HelveticaNeue-BlackItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/HelveticaNeue-BlackItalic.woff2") format("woff2"),
+    url("./fonts/HelveticaNeue-BlackItalic.woff") format("woff"),
+    url("./fonts/HelveticaNeue-BlackItalic.ttf") format("truetype"),
+    url("./fonts/HelveticaNeue-BlackItalic.svg#HelveticaNeue-BlackItalic")
+      format("svg");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("./fonts/HelveticaNeue-Italic.eot");
+  src: local("Helvetica Neue Italic"), local("HelveticaNeue-Italic"),
+    url("./fonts/HelveticaNeue-Italic.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/HelveticaNeue-Italic.woff2") format("woff2"),
+    url("./fonts/HelveticaNeue-Italic.woff") format("woff"),
+    url("./fonts/HelveticaNeue-Italic.ttf") format("truetype"),
+    url("./fonts/HelveticaNeue-Italic.svg#HelveticaNeue-Italic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("./fonts/HelveticaNeue-HeavyItalic.eot");
+  src: local("Helvetica Neue Heavy Italic"), local("HelveticaNeue-HeavyItalic"),
+    url("./fonts/HelveticaNeue-HeavyItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/HelveticaNeue-HeavyItalic.woff2") format("woff2"),
+    url("./fonts/HelveticaNeue-HeavyItalic.woff") format("woff"),
+    url("./fonts/HelveticaNeue-HeavyItalic.ttf") format("truetype"),
+    url("./fonts/HelveticaNeue-HeavyItalic.svg#HelveticaNeue-HeavyItalic")
+      format("svg");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("./fonts/HelveticaNeue-LightItalic.eot");
+  src: local("Helvetica Neue Light Italic"), local("HelveticaNeue-LightItalic"),
+    url("./fonts/HelveticaNeue-LightItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/HelveticaNeue-LightItalic.woff2") format("woff2"),
+    url("./fonts/HelveticaNeue-LightItalic.woff") format("woff"),
+    url("./fonts/HelveticaNeue-LightItalic.ttf") format("truetype"),
+    url("./fonts/HelveticaNeue-LightItalic.svg#HelveticaNeue-LightItalic")
+      format("svg");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("./fonts/HelveticaNeue-Heavy.eot");
+  src: local("Helvetica Neue Heavy"), local("HelveticaNeue-Heavy"),
+    url("./fonts/HelveticaNeue-Heavy.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/HelveticaNeue-Heavy.woff2") format("woff2"),
+    url("./fonts/HelveticaNeue-Heavy.woff") format("woff"),
+    url("./fonts/HelveticaNeue-Heavy.ttf") format("truetype"),
+    url("./fonts/HelveticaNeue-Heavy.svg#HelveticaNeue-Heavy") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("./fonts/HelveticaNeue-Light.eot");
+  src: local("Helvetica Neue Light"), local("HelveticaNeue-Light"),
+    url("./fonts/HelveticaNeue-Light.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/HelveticaNeue-Light.woff2") format("woff2"),
+    url("./fonts/HelveticaNeue-Light.woff") format("woff"),
+    url("./fonts/HelveticaNeue-Light.ttf") format("truetype"),
+    url("./fonts/HelveticaNeue-Light.svg#HelveticaNeue-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("./fonts/HelveticaNeue-BoldItalic.eot");
+  src: local("Helvetica Neue Bold Italic"), local("HelveticaNeue-BoldItalic"),
+    url("./fonts/HelveticaNeue-BoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/HelveticaNeue-BoldItalic.woff2") format("woff2"),
+    url("./fonts/HelveticaNeue-BoldItalic.woff") format("woff"),
+    url("./fonts/HelveticaNeue-BoldItalic.ttf") format("truetype"),
+    url("./fonts/HelveticaNeue-BoldItalic.svg#HelveticaNeue-BoldItalic")
+      format("svg");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("./fonts/HelveticaNeue-Roman.eot");
+  src: local("Helvetica Neue Roman"), local("HelveticaNeue-Roman"),
+    url("./fonts/HelveticaNeue-Roman.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/HelveticaNeue-Roman.woff2") format("woff2"),
+    url("./fonts/HelveticaNeue-Roman.woff") format("woff"),
+    url("./fonts/HelveticaNeue-Roman.ttf") format("truetype"),
+    url("./fonts/HelveticaNeue-Roman.svg#HelveticaNeue-Roman") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("./fonts/HelveticaNeue-Thin.eot");
+  src: local("Helvetica Neue Thin"), local("HelveticaNeue-Thin"),
+    url("./fonts/HelveticaNeue-Thin.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/HelveticaNeue-Thin.woff2") format("woff2"),
+    url("./fonts/HelveticaNeue-Thin.woff") format("woff"),
+    url("./fonts/HelveticaNeue-Thin.ttf") format("truetype"),
+    url("./fonts/HelveticaNeue-Thin.svg#HelveticaNeue-Thin") format("svg");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("./fonts/HelveticaNeue-MediumItalic.eot");
+  src: local("Helvetica Neue Medium Italic"),
+    local("HelveticaNeue-MediumItalic"),
+    url("./fonts/HelveticaNeue-MediumItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/HelveticaNeue-MediumItalic.woff2") format("woff2"),
+    url("./fonts/HelveticaNeue-MediumItalic.woff") format("woff"),
+    url("./fonts/HelveticaNeue-MediumItalic.ttf") format("truetype"),
+    url("./fonts/HelveticaNeue-MediumItalic.svg#HelveticaNeue-MediumItalic")
+      format("svg");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("./fonts/HelveticaNeue-Medium.eot");
+  src: local("Helvetica Neue Medium"), local("HelveticaNeue-Medium"),
+    url("./fonts/HelveticaNeue-Medium.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/HelveticaNeue-Medium.woff2") format("woff2"),
+    url("./fonts/HelveticaNeue-Medium.woff") format("woff"),
+    url("./fonts/HelveticaNeue-Medium.ttf") format("truetype"),
+    url("./fonts/HelveticaNeue-Medium.svg#HelveticaNeue-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("./fonts/HelveticaNeue-ThinItalic.eot");
+  src: local("Helvetica Neue Thin Italic"), local("HelveticaNeue-ThinItalic"),
+    url("./fonts/HelveticaNeue-ThinItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/HelveticaNeue-ThinItalic.woff2") format("woff2"),
+    url("./fonts/HelveticaNeue-ThinItalic.woff") format("woff"),
+    url("./fonts/HelveticaNeue-ThinItalic.ttf") format("truetype"),
+    url("./fonts/HelveticaNeue-ThinItalic.svg#HelveticaNeue-ThinItalic")
+      format("svg");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("./fonts/HelveticaNeue-UltraLight.eot");
+  src: local("Helvetica Neue Ultra Light"), local("HelveticaNeue-UltraLight"),
+    url("./fonts/HelveticaNeue-UltraLight.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/HelveticaNeue-UltraLight.woff2") format("woff2"),
+    url("./fonts/HelveticaNeue-UltraLight.woff") format("woff"),
+    url("./fonts/HelveticaNeue-UltraLight.ttf") format("truetype"),
+    url("./fonts/HelveticaNeue-UltraLight.svg#HelveticaNeue-UltraLight")
+      format("svg");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("./fonts/HelveticaNeue-UltraLightItalic.eot");
+  src: local("Helvetica Neue Ultra Light Italic"),
+    local("HelveticaNeue-UltraLightItalic"),
+    url("./fonts/HelveticaNeue-UltraLightItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/HelveticaNeue-UltraLightItalic.woff2") format("woff2"),
+    url("./fonts/HelveticaNeue-UltraLightItalic.woff") format("woff"),
+    url("./fonts/HelveticaNeue-UltraLightItalic.ttf") format("truetype"),
+    url("./fonts/HelveticaNeue-UltraLightItalic.svg#HelveticaNeue-UltraLightItalic")
+      format("svg");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue";
+  font-weight: 700;
+}
+
+.hero {
+  margin: 0px;
+}
+
+nav {
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 56px;
+  padding: 12px 24px;
+  border-bottom: 1px solid #cecece;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+.nav-left button {
+  border: none;
+  outline: 0;
+  background: transparent;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.nav-right .companyname {
+  font-weight: 250;
+}
+
+.nav-left .personname {
+  font-weight: 300;
+}
+
+.left-space {
+  position: fixed;
+  left: 0;
+  top: 56px;
+  height: calc(100vh - 104px);
+  width: 256px;
+  background-color: #f2f2f2;
+  border: 1px solid #cecece;
+}
+.left-space .lines {
+  padding-top: 24px;
+  padding-left: 24px;
+}
+
+.left-space .lines {
+  padding-top: 24px;
+  padding-left: 24px;
+}
+
+main {
+}
+
+.sidebarmenu {
+  list-style-type: none; /* Removes bullet points */
+  padding-top: 24px;
+  padding-left: 24px;
+  height: 425px;
+}
+
+.menuitem {
+  margin-bottom: 24px; /* Adds space between menu items */
+}
+
+.menuitem a {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.menuitem p {
+  font-weight: 300;
+}
+
+.menuitem .settingimage {
+  width: 22px;
+  height: 22px;
+}
+
+.menuitem.active {
+  background-color: none; /* Background color for active item */
+}
+
+/* Style for links */
+.sidebarmenu a {
+  text-decoration: none; /* Removes underline from links */
+  color: #333; /* Link color */
+  display: flex; /* Aligns image and text horizontally */
+  align-items: center; /* Centers vertically */
+}
+
+.content-wrapper {
+  margin-left: 256px;
+}
+
+.appcentre-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 24px;
+}
+
+.appcentre-heading .appcentre-time {
+  font-weight: 400;
+  font-size: 13px;
+}
+.sidebar-menu-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+/* CSS for the content body */
+.contentbody {
+  padding: 20px;
+  background-color: white; /* light gray background */
+}
+
+/* CSS for the blue text container */
+.bluetext {
+  background-color: #dae4ef; /* blue background */
+  width: 1620px;
+  height: 52px;
+  border-radius: 8px;
+  padding: 24px 8px;
+  display: flex;
+  align-items: center;
+}
+
+/* CSS for the inline text container */
+.inlinetext {
+  display: flex;
+  align-items: center;
+}
+
+/* CSS for the image */
+.exc-img {
+  width: 24px; /* set the desired width */
+  height: 24px; /* set the desired height */
+  margin-right: 10px; /* space between the image and text */
+}
+
+/* CSS for the paragraph */
+.inlinetext p {
+  margin: 0; /* remove default margin */
+  font-size: 16px; /* set font size */
+  color: black; /* set the font color to yellow */
+}
+
+.hellotext {
+  color: black;
+  font-weight: 400;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 48px;
+  background: #f2f2f2;
+  border: 1px solid #cecece;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-left {
+  padding-left: 24px;
+}
+
+.footer-right {
+  margin-right: 24px;
+}
+
+.footer-text {
+  font-weight: 400;
+  font-size: 13px;
+}
